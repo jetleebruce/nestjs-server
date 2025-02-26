@@ -17,7 +17,7 @@ services:
       networks:
         - backend
 
-     redis:
+    redis:
       container_name: redis
       image: redis:5.0
       restart: always
@@ -34,4 +34,4 @@ volumes:
   redis_data:
 
 networks:
-  backend
+  backend:
