@@ -9,7 +9,7 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
-    "path": {
+    "paths": {
       "@/*": ["src/*"],
       "@prisma/__generated__": ["prisma/__generated__"],
       "@prisma/__generated__/*": ["prisma/__generated__/*"],
