@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 
-import { IS_DEV_ENV } from './libs/common/is-dev.utils';
+import { IS_DEV_ENV } from './libs/common/utils/is-dev.utils';
 
 @Module({
   imports: [
